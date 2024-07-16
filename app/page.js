@@ -1,95 +1,98 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main className="main_container">
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <section className="main_container__header">
+        <h1 className="block">Animate On Scroll</h1>
+      </section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <section className="main_container__section section-2">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
+      <section className="main_container__section section-2">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
+      <section className="main_container__section section-2">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      <section className="main_container__section section-1">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
+      <section className="main_container__section section-1">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
+      <section className="main_container__section section-1">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+      <section className="main_container__section section-3">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
+      <section className="main_container__section section-3">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
+      <section className="main_container__section section-3">
+        <div className="block one"></div>
+        <div className="block two"></div>
+        <div className="block five"></div>
+        <div className="block six"></div>
+        <div className="block three"></div>
+        <div className="block seven"></div>
+        <div className="block four"></div>
+      </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <footer className="block main_container__header"><h1>Footer</h1>      </footer>
+
     </main>
   );
 }
